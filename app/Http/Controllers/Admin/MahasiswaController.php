@@ -43,7 +43,7 @@ class MahasiswaController extends Controller
     public function create()
     {
         return view('admin.mahasiswa.create');
-        echo "aaa";
+        echo "Hallo Semua";
     }
 
     public function store(Request $request)
